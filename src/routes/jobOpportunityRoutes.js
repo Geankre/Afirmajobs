@@ -8,13 +8,13 @@ router.post("/create", checkAuth, controller.createJobOpportunity)
 
 router.get("/all", checkAuth, controller.getAllJob)
 
-router.get("/byPositionCompany", checkAuth, controller.getJobPositionAndCompany)
+router.get("/by_position_company", checkAuth, controller.getJobPositionAndCompany)
 
 router.get("/filter", checkAuth, controller.getJobFilter)
 
-router.put("/updateJobOpportunity/:id", checkAuth, controller.updateJobOpportunity)
+router.put("/update_job_opportunity/:id", checkAuth, controller.updateJobOpportunity)
 
-router.delete("/deleteJobOpportunity/:id", checkAuth, controller.deleteJobOpportunity)
+router.delete("/delete_job_opportunity/:id", checkAuth, controller.deleteJobOpportunity)
 
 
 
