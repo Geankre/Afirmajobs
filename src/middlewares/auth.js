@@ -24,3 +24,5 @@ const checkAuth = async (request, response, next) => {
         response.status.send({message: error.message})
     }
 }
+
+module.exports = checkAuth
