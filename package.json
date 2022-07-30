@@ -1,0 +1,33 @@
+{
+  "name": "afirmajobs",
+  "version": "1.0.0",
+  "description": "Projeto final do curso bootcamp da reprograma",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "projeto",
+    "reprograma",
+    "afirmajobs",
+    "diversidade",
+    "inclusão"
+  ],
+  "author": "Geankre Souza",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.4"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2",
+    "nodemon": "^2.0.19",
+    "supertest": "^6.2.4"
+  }
+}
